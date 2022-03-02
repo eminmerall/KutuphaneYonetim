@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C84A130-2206-4768-8372-00F7EB8F2FE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kutuphaneYonetim</RootNamespace>
+    <AssemblyName>kutuphaneYonetim</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anasayfa.Designer.cs">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetEkle.Designer.cs">
+      <DependentUpon>emanetEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="emanetListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emanetListe.Designer.cs">
+      <DependentUpon>emanetListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapKayit.Designer.cs">
+      <DependentUpon>kitapKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kitapListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapListele.Designer.cs">
+      <DependentUpon>kitapListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kutuphaneBilgiDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kutuphaneBilgiDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="uyeKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyeKayit.Designer.cs">
+      <DependentUpon>uyeKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kullaniciGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullaniciGiris.Designer.cs">
+      <DependentUpon>kullaniciGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uyeListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uyeListele.Designer.cs">
+      <DependentUpon>uyeListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yayinEviKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yayinEviKayit.Designer.cs">
+      <DependentUpon>yayinEviKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yazarKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yazarKayit.Designer.cs">
+      <DependentUpon>yazarKayit.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="anasayfa.resx">
+      <DependentUpon>anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanetEkle.resx">
+      <DependentUpon>emanetEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emanetListe.resx">
+      <DependentUpon>emanetListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapKayit.resx">
+      <DependentUpon>kitapKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapListele.resx">
+      <DependentUpon>kitapListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uyeKayit.resx">
+      <DependentUpon>uyeKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kullaniciGiris.resx">
+      <DependentUpon>kullaniciGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="uyeListele.resx">
+      <DependentUpon>uyeListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yayinEviKayit.resx">
+      <DependentUpon>yayinEviKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yazarKayit.resx">
+      <DependentUpon>yazarKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="kutuphaneBilgiDataSet.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet.xss">
+      <DependentUpon>kutuphaneBilgiDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet1.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet1.xss">
+      <DependentUpon>kutuphaneBilgiDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet10.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet10.xss">
+      <DependentUpon>kutuphaneBilgiDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet2.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet2.xss">
+      <DependentUpon>kutuphaneBilgiDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet3.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet3.xss">
+      <DependentUpon>kutuphaneBilgiDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet4.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet4.xss">
+      <DependentUpon>kutuphaneBilgiDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet5.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet5.xss">
+      <DependentUpon>kutuphaneBilgiDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet6.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet6.xss">
+      <DependentUpon>kutuphaneBilgiDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet7.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet7.xss">
+      <DependentUpon>kutuphaneBilgiDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet8.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet8.xss">
+      <DependentUpon>kutuphaneBilgiDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet9.xsc">
+      <DependentUpon>kutuphaneBilgiDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="kutuphaneBilgiDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kutuphaneBilgiDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kutuphaneBilgiDataSet9.xss">
+      <DependentUpon>kutuphaneBilgiDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-shelf-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-book-shelf-40.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

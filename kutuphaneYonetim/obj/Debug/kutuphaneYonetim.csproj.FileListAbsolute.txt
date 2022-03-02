@@ -1,0 +1,38 @@
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\bin\Debug\kutuphaneYonetim.exe.config
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\bin\Debug\kutuphaneYonetim.exe
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\bin\Debug\kutuphaneYonetim.pdb
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.csprojAssemblyReference.cache
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.Properties.Resources.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.csproj.GenerateResource.cache
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.csproj.CoreCompileInputs.cache
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.exe
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.pdb
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.kullaniciGiris.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.uyeKayit.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.kitapKayit.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.yazarKayit.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.yayinEviKayit.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.anasayfa.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.uyeListele.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.kitapListele.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.emanetEkle.resources
+D:\YBS\Ders Notları\2019-2020 1. Dönem(Güz)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.emanetListe.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\bin\Debug\kutuphaneYonetim.exe.config
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\bin\Debug\kutuphaneYonetim.exe
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\bin\Debug\kutuphaneYonetim.pdb
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.csprojAssemblyReference.cache
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.anasayfa.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.emanetEkle.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.emanetListe.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.kitapKayit.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.kitapListele.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.uyeKayit.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.kullaniciGiris.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.Properties.Resources.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.uyeListele.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.yayinEviKayit.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.yazarKayit.resources
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.csproj.GenerateResource.cache
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.csproj.CoreCompileInputs.cache
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.exe
+D:\YBS\Ders Notları(Drive)\Görsel Programlama\Proje\kutuphaneYonetim\kutuphaneYonetim\obj\Debug\kutuphaneYonetim.pdb
